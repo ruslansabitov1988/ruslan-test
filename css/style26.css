@@ -1,0 +1,388 @@
+.parent{
+    width: 1200px;
+    height: 2041px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.basic1{
+    width: 1152px;
+    height: 80px;
+    display: flex;
+    margin: 0 auto;
+    background-color: white;
+}
+.basic1-header{
+    width: 1152px;
+    height: 80px;   
+    display: flex;
+    margin: 0 auto;
+    justify-content: flex-end;
+    text-align: center;
+    align-items: center;
+}
+.basic1-header-text1{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: right;
+    color: #000000;
+    position: relative;
+    right: 50px;
+}
+.basic1-header-text2{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: right;
+    color: #000000;
+    position: relative;
+    right: 25px;
+}
+.basic1-header-text3{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: right;
+    color: #000000;
+}
+.basic2{
+    width: 1152px;
+    height: 345px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    background-color: white;
+}
+.basic2-left{
+    width: 506px;
+    height: 345px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.basic2-left-text1{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 60px;
+    color: #21243D;
+    height: 150px;
+}
+.basic2-left-text2{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #21243D;
+}
+.basic2-left-box{
+    width: 208px;
+    height: 47px;
+    background-color: #FF6464;
+}
+.basic2-left-box-button{
+    width: 208px;
+    height: 47px;
+    background-color: #FF6464;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.basic2-right{
+    width: 345px;
+    height: 345px;
+}
+.basic2-right-img{
+    width: 345px;
+    height: 345px;
+    background-image: url(../img4/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100px;
+    filter: drop-shadow(10px 15px 5px #f80e0e);
+}
+.basic3-1{
+    width: 1200px;
+    height: 400px;
+    background-color: #EDF7FA;
+}
+.basic3{
+    width: 1152px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: space-between;
+    background-color: #EDF7FA;
+}
+.basic3-header{
+    width: 1152px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.basic3-header-text1{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 60px;
+    display: flex;
+    color: #21243D;
+}
+.basic3-header-text2{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #00A8CC;
+}
+.basic3-center{
+    width: 1152px;
+    height: 340px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.basic3-center-left{
+    width: 418px;
+    height: 295px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+}
+.basic3-center-left-text1{
+    width: 374px;
+    height: 85px;   
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 38px;
+    color: #21243D;
+    display: flex;
+    margin: 0 auto;
+}
+.basic3-center-left-text2{
+    width: 374px;
+    height: 85px; 
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    display: flex;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 26px;
+}
+.basic3-center-left-text3{
+    width: 368px;
+    height: 117px;
+    font-family: 'Heebo', sans-serif;
+    size: 16px;
+    line-height: 23px;
+    display: flex;
+    margin: 0 auto;
+    font-style: normal;
+    color: #21243D;
+}
+.basic3-center-right{
+    width: 418px;
+    height: 295px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+}
+.basic3-center-right-text1{
+    width: 374px;
+    height: 85px;   
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 38px;
+    color: #21243D;
+    display: flex;
+    margin: 0 auto;
+}
+.basic3-center-right-text2{
+    width: 374px;
+    height: 85px; 
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    display: flex;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 26px;
+}
+.basic3-center-right-text3{
+    width: 368px;
+    height: 117px;
+    font-family: 'Heebo', sans-serif;
+    size: 16px;
+    line-height: 23px;
+    display: flex;
+    margin: 0 auto;
+    font-style: normal;
+    color: #21243D;
+}
+.basic4{
+    width: 1152px;
+    height: 60px;
+    display: flex;
+    margin: 0 auto;
+    background-color: white;
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 60px;  
+    color: #21243D;
+}
+.basic4 > a {
+    height: 60px;
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 60px;  
+    color: #21243D;
+}
+.basic5{
+    width: 1152px;
+    height: 200px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(200, 197, 197);
+}
+.basic5-img{
+    width: 246px;
+    height: 180px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img4/5-1.png);
+}
+.basic5-text{
+    width: 594px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 190px;
+}
+.basic5-text1{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243D;
+}
+.basic5-text2{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #21243D;
+}
+.basic6{
+    width: 1152px;
+    height: 200px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(200, 197, 197);
+}
+.basic6-img{
+    width: 246px;
+    height: 180px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img4/6-1.png);
+}
+.basic6-text{
+    width: 594px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 190px;
+}
+.basic6-text1{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243D;
+}
+.basic6-text2{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #21243D;
+}
+.basic7{
+    width: 1152px;
+    height: 200px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(200, 197, 197);
+}
+.basic7-img{
+    width: 246px;
+    height: 180px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img4/7-1.png);
+}
+.basic7-text{
+    width: 594px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 190px;
+}
+.basic7-text1{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243D;
+}
+.basic7-text2{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #21243D;
+}
